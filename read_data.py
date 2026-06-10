@@ -9,5 +9,5 @@ from PIL import Image
 img_path = "./hymenoptera_data/train/ants/0013035.jpg"
 
 img = Image.open(img_path)
-
+print("###########################")
 print(img.size)
